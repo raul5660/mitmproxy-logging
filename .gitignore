@@ -1,0 +1,7 @@
+__pycache__\*
+compose.yaml
+mitmproxy-*
+/log/*
+*.log
+*.pyc
+*.Test
