@@ -5,7 +5,7 @@ forbidden_chars = re.compile("[^\\w\\-\\.]")
 
 class TrafficLogger:
     def __init__(self):
-        self.output_directory = "/home/mitmproxy/.mitmproxy/log/"
+        self.output_directory = "~/.mitmproxy/log/"
         self.ensure_directory_exists(self.output_directory)
         self.log_file = open(os.path.join(self.output_directory, "mitmproxy.log"), "a")
 
